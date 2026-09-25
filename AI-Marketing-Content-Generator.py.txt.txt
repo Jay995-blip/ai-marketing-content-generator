@@ -1,0 +1,18 @@
+print("AI Marketing Content Generator")
+print("--------------------------------")
+
+business = input("Enter your business name: ")
+product = input("Enter the product or service: ")
+audience = input("Enter your target audience: ")
+platform = input("Enter the social media platform: ")
+
+print("\nGenerated Marketing Content")
+print("---------------------------")
+
+caption = (
+    f"Discover {product} from {business}! "
+    f"Designed with {audience} in mind. "
+    f"Follow us on {platform} and find out more today!"
+)
+
+print(caption)
